@@ -1,10 +1,10 @@
 <?php
 /* Load Class. */
-$fxupdater_updater = new fxUpdater_Updater();
+$kidstuff_divi_child_updater = new kidstuff_divi_child_Updater();
 /**
  * Updater Class
 **/
-class fxUpdater_Updater{
+class kidstuff_divi_child_Updater{
 	/**
 	 * Class Constructor
 	 */
