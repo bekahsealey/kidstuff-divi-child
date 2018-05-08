@@ -32,6 +32,7 @@ add_action( 'wp_enqueue_scripts', 'ds_ct_enqueue_parent' );
 
 add_action( 'wp_enqueue_scripts', 'ds_ct_loadjs' );
 
-
+/* Include theme updater. */
+require_once get_stylesheet_directory() . '/includes/updater.php';
 
 ?>
